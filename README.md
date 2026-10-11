@@ -126,15 +126,9 @@ Here $\mu_s$ is the state fixed effect, $\tau_t$ is the year fixed effect, and $
 
 ---
 
-## Repository layout
+## Analysis steps
 
-```
-├── data/              raw DBIE downloads (not tracked) and the cleaned panels
-├── notebooks/         the analysis, one step per notebook section (Steps 1–11)
-├── figures/           charts used in the paper
-├── tables/            regression output as CSV
-└── paper/             LaTeX source and PDF (full paper, conference version, extended abstract)
-```
+The analysis runs as a sequence of notebook steps. The charts used in the paper are in `figures/`.
 
 | Step | What it does |
 |---|---|
@@ -155,7 +149,7 @@ Here $\mu_s$ is the state fixed effect, $\tau_t$ is the year fixed effect, and $
 pip install pandas numpy scipy linearmodels statsmodels matplotlib
 ```
 
-1. Download the nine tables above from DBIE as CSV and place them in `data/`.
+1. Download the nine tables above from DBIE as CSV files and put them in the same folder as the notebook.
 2. Run the notebook cells in order. Each step reads the output of the previous one.
 
 Python 3.10+ is required. The GMM estimator is written from scratch, because the available package does not work with NumPy 2. It was checked by simulation: it recovers the true parameters on artificial data.
