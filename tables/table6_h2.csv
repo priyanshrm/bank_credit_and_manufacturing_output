@@ -1,0 +1,21 @@
+,(1) x initial depth,(2) x credit-scarce,(3) slope per tercile,(4) weighted by size,(5) drop small states
+Credit (t-1) at average depth,-0.078,,,0.160,0.044
+,(0.090),,,(0.144),(0.125)
+Credit x initial depth,0.144***,,,0.009,-0.130
+,(0.046),,,(0.196),(0.159)
+Credit (t-1): T2 + T3 states,,0.026,,,
+,,(0.109),,,
+Extra effect in T1 states,,-0.183,,,
+,,(0.175),,,
+Total effect in T1 states,,-0.157,,,
+,,(0.141),,,
+Credit effect in T1,,,-0.159,,
+,,,(0.140),,
+Credit effect in T2,,,-0.024,,
+,,,(0.124),,
+Credit effect in T3,,,0.108,,
+,,,(0.136),,
+T1 minus T3,,,-0.267,,
+,,,(0.179),,
+Observations,486,486,486,486,352
+States,33,33,33,33,24

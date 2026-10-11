@@ -1,0 +1,6 @@
+,(1) No state trends (baseline),(2) + linear state trends,(3) + quadratic state trends
+H1: credit effect,-0.075 (0.098) [0.48],-0.154 (0.081) [0.11],-0.161 (0.082) [0.12]
+Share of credit variation left,0.8%,0.4%,0.3%
+Observations,486,486,486
+H2: credit x initial depth (H2 wants < 0),0.144 (0.046) [0.26],-0.001 (0.037) [0.98],0.215 (0.059) [0.10]
+Small-ticket credit effect,0.035 (0.027) [0.21],0.027 (0.025) [0.26],0.024 (0.027) [0.30]

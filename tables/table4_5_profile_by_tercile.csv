@@ -1,0 +1,11 @@
+,Credit-scarce (T1),Middle (T2),Credit-rich (T3),T1 - T3,p-value (T1 vs T3)
+Initial credit depth,0.1806,0.2874,0.8475,-0.6668,0.0162
+Income per person (Rs),85882.5647,107593.4662,133106.2318,-47223.667,0.0464
+Manufacturing share of output,0.127,0.1805,0.1233,0.0037,0.9394
+Average mfg loan (Rs lakh),8.1292,18.442,61.3679,-53.2387,0.0126
+Small-ticket share of mfg credit,0.4765,0.2795,0.1041,0.3724,0.0004
+Grassroots share of mfg credit,0.5685,0.4412,0.1137,0.4547,0.0
+RRB + SFB share of mfg credit,0.0516,0.0483,0.0049,0.0467,0.0689
+Rural + semi-urban share of mfg credit,0.5626,0.4294,0.1114,0.4512,0.0
+Utilisation of mfg limits,0.7201,0.6553,0.5776,0.1424,0.0
+Mfg credit / mfg output,0.5057,0.5744,3.2571,-2.7514,0.1237

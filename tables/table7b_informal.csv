@@ -1,0 +1,11 @@
+,(1) Total credit,(2) Small-ticket credit,(3) Grassroots credit
+ln total mfg credit (t-1),-0.064,,
+,(0.057),,
+ln small-ticket credit (t-1),,0.002,
+,,(0.008),
+ln grassroots credit (t-1),,,-0.003
+,,,(0.015)
+ln income pc (t-1),-0.142,-0.166,-0.156
+,(0.176),(0.196),(0.177)
+Observations,138,138,138
+States,32,32,32

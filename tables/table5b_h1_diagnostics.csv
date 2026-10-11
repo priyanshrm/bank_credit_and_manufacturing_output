@@ -1,0 +1,13 @@
+Check,Why we try it,beta,se,p,N,states,sig
+A. Main (Table 5 col 4),reference,-0.0745,0.0978,0.4467,486,33,
+B. Credit 2 years earlier,machines take time to install,-0.1616,0.1015,0.112,453,33,
+C. Credit 3 years earlier,longer build-up,-0.1643,0.1002,0.1018,420,33,
+"D. Average credit, t-1 to t-3",smooths one-year blips in credit,-0.2181,0.1211,0.0725,420,33,*
+E. Cumulative: lags 1+2+3,total effect over 3 years,-0.2016,0.1163,0.0925,420,33,*
+F. Drop suspect rows,blips/jumps add noise,-0.0495,0.1178,0.6749,452,33,
+G. Drop small mfg states,tiny NE states are very noisy,0.0492,0.1291,0.7033,352,24,
+H. Drop Maharashtra & Delhi,credit booked at HQ branches,-0.0797,0.1003,0.4271,456,31,
+I. Weight by state size,big states measured more accurately,0.1601,0.1432,0.264,486,33,
+J. Output = current price / state deflator,avoids constant-price breaks,-0.1012,0.0938,0.2813,486,33,
+K. Total credit instead of mfg credit,mfg credit may be mis-classified,-0.2612,0.2052,0.2037,486,33,
+L. Long difference (start vs end),"slow, long-run effect; ignores yearly noise",0.0908,0.2079,0.6623,33,33,

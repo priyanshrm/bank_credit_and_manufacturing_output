@@ -1,0 +1,4 @@
+Version of Table 6 col (1),interaction,se,p (clustered),p (wild bootstrap),states
+Depth as percentile rank,0.3433,0.2415,0.1558,0.2146,33
+Depth in logs,0.1485,0.0597,0.0132,0.1341,33
+"Drop top-3 depth (Chandigarh, Delhi, Maharashtra)",0.8035,0.9898,0.4174,0.4422,30

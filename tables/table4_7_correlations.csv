@@ -1,0 +1,9 @@
+,ln output,ln credit (t-1),ln income pc (t-1),initial depth,small-ticket share,grassroots share,output growth,credit growth
+ln output,1.0,0.861,0.06,0.04,-0.716,-0.563,0.089,0.095
+ln credit (t-1),0.861,1.0,0.105,0.39,-0.752,-0.706,0.033,0.008
+ln income pc (t-1),0.06,0.105,1.0,0.428,-0.262,-0.003,-0.043,-0.011
+initial depth,0.04,0.39,0.428,1.0,-0.375,-0.421,-0.017,-0.05
+small-ticket share,-0.716,-0.752,-0.262,-0.375,1.0,0.514,-0.015,-0.081
+grassroots share,-0.563,-0.706,-0.003,-0.421,0.514,1.0,0.02,-0.062
+output growth,0.089,0.033,-0.043,-0.017,-0.015,0.02,1.0,0.046
+credit growth,0.095,0.008,-0.011,-0.05,-0.081,-0.062,0.046,1.0

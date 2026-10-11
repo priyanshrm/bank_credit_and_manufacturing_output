@@ -1,0 +1,3 @@
+Direction,states,W-bar,Z-bar,p (Z-bar),Z-tilde (small T),p (Z-tilde),share of states significant at 5%
+Credit -> Output,33,0.6249,-1.5235,0.1276,-1.655,0.0979,0.0
+Output -> Credit,33,1.1016,0.4126,0.6799,-0.3038,0.7613,0.0909

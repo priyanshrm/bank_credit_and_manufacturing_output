@@ -1,0 +1,15 @@
+,Variable,count,mean,std,min,25%,50%,75%,max
+real_cr_out_manuf,"Real manufacturing credit (Rs crore, 2011-12 prices)",519,39892.5577,75854.8621,29.05,778.1984,9548.62,43369.7071,440642.2776
+nsdp_manuf_cnst,"Manufacturing output (Rs crore, 2011-12 prices)",519,53675.0724,74931.5695,28.2396,4125.2328,30006.1639,62349.0025,417820.9298
+nsdp_manuf_unreg_cnst,"Unregistered mfg output (Rs crore, to 2014-15)",171,5996.8873,8426.9819,18.8129,347.69,1937.33,7944.8784,42641.368
+pc_nsdp_cnst,"Income per person (Rs, 2011-12 prices)",519,108714.8847,63124.5198,17592.185,60487.215,92672.394,142923.4832,342403.5762
+g_real_cr_out_manuf,Growth of real mfg credit (log diff),486,0.0231,0.2007,-1.4833,-0.0391,0.0271,0.0955,1.2586
+g_nsdp_manuf_cnst,Growth of mfg output (log diff),486,0.0515,0.1961,-1.1106,-0.0234,0.0511,0.1285,1.3858
+credit_depth_gsdp,Credit / GSDP,271,0.4313,0.4683,0.1045,0.1959,0.2923,0.4268,2.9123
+initial_depth,"Initial credit depth (credit / GSDP, first year)",519,0.4371,0.5184,0.1258,0.202,0.2808,0.4082,2.9123
+manuf_credit_to_output,Mfg credit / mfg output,519,1.4549,3.4598,0.0063,0.2556,0.5118,0.9,25.6273
+avg_ticket_manuf_lakh,Average mfg loan (Rs lakh per account),519,29.1758,48.8065,0.5364,6.5568,13.3011,29.5821,340.2147
+small_ticket_share_manuf,Small-ticket share of mfg credit (<= Rs 25 lakh),519,0.2889,0.2571,0.0002,0.1031,0.2031,0.375,0.9891
+grassroots_share_manuf,Grassroots share of mfg credit,519,0.3777,0.3185,0.001,0.137,0.2611,0.5719,1.0
+util_manuf,Utilisation of mfg credit limits,519,0.6513,0.1193,0.0874,0.5861,0.6598,0.7265,1.6457
+manuf_share,Manufacturing share of state output,457,0.1443,0.1158,0.0018,0.0616,0.1143,0.197,0.4977

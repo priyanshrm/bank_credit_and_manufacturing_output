@@ -1,0 +1,6 @@
+Version,States,N,H1: credit effect,H2: credit x initial depth (H2 wants < 0),H2: T1 minus T3 (H2 wants > 0),Small-ticket credit effect
+Baseline (Tables 5-7),33,486,-0.075 (p=0.45) [wild 0.48],0.144*** (p=0.00) [wild 0.26],-0.267 (p=0.14),0.035 (p=0.20) [wild 0.21]
+Drop Maharashtra & Delhi,31,456,-0.080 (p=0.43) [wild 0.48],0.156*** (p=0.00) [wild 0.29],-0.298 (p=0.14),0.064 (p=0.10) [wild 0.21]
+Growth rates,33,453,-0.031 (p=0.68) [wild 0.70],0.072 (p=0.18) [wild 0.24],-0.167* (p=0.09),0.016 (p=0.14) [wild 0.20]
+Total credit (all sectors),33,486,-0.261 (p=0.20) [wild 0.25],-0.017 (p=0.93) [wild 0.91],-0.275 (p=0.15),n/a (only defined for mfg credit)
+"Drop COVID years (FY21, FY22)",33,420,-0.081 (p=0.47) [wild 0.54],0.126** (p=0.02) [wild 0.33],-0.257 (p=0.17),0.023 (p=0.31) [wild 0.30]

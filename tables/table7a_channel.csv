@@ -1,0 +1,21 @@
+,(1) Small-ticket credit,(2) Small vs large,(3) Grassroots credit,(4) Total + small share,(5) Total + grass share,(6) Total x small share
+ln total mfg credit (t-1),,,,-0.038,-0.094,-0.040
+,,,,(0.098),(0.100),(0.098)
+ln small-ticket credit (t-1),0.035,0.033,,,,
+,(0.027),(0.026),,,,
+ln large-ticket credit (t-1),,-0.010,,,,
+,,(0.047),,,,
+ln grassroots credit (t-1),,,0.070,,,
+,,,(0.058),,,
+Small-ticket share (t-1),,,,0.242,,
+,,,,(0.238),,
+Grassroots share (t-1),,,,,0.371,
+,,,,,(0.238),
+Total credit x small-ticket share,,,,,,0.046
+,,,,,,(0.035)
+ln income pc (t-1),0.759*,0.770*,0.709*,0.837**,0.869**,0.820**
+,(0.421),(0.417),(0.430),(0.408),(0.385),(0.409)
+Small minus large,,0.044,,,,
+,,(0.055),,,,
+Observations,486,486,486,486,486,486
+States,33,33,33,33,33,33

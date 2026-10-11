@@ -1,0 +1,12 @@
+,(1) Pooled OLS,(2) State FE,(3) State + Year FE,(4) + Income control,(5) Growth on growth
+ln real mfg credit (t-1),0.816***,0.255*,-0.016,-0.075,
+,(0.102),(0.150),(0.110),(0.098),
+Real mfg credit growth (t-1),,,,,0.012
+,,,,,(0.101)
+ln income per person (t-1),,,,0.827**,
+,,,,(0.408),
+State fixed effects,No,Yes,Yes,Yes,Yes
+Year fixed effects,No,No,Yes,Yes,Yes
+Observations,486,486,486,486,453
+States,33,33,33,33,33
+R-squared (within),0.741,0.038,0.000,0.067,0.000
