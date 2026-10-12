@@ -71,15 +71,27 @@ The data never changed, only *what was compared with what*. This is the single m
 
 ## What the number says about the theory
 
-The paper starts from a textbook model. Firms produce with $Y = AK^{\alpha}L^{1-\alpha}$, and a credit-constrained firm can buy only as much capital as its loan allows, so $K \le \lambda \cdot \text{Credit}$. Adding up all the firms in a state gives a clean prediction:
+The paper starts from a textbook model. Firms produce with capital *K* and labour *L*. A credit-constrained firm can buy only as much capital as its loan allows:
 
-```math
-\frac{\partial \ln Y_s}{\partial \ln \text{Credit}_s} = \alpha \cdot \theta_s
-```
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="figures/eq_model_dark.svg">
+  <img src="figures/eq_model_light.svg" width="350" alt="Y = A K^alpha L^(1-alpha),  K <= lambda * Credit">
+</picture>
+</p>
 
-Here $\theta_s$ is **the share of a state's output that comes from credit-constrained firms**, and $\alpha$ is how much output responds to capital.
+Adding up all the firms in a state gives a clean prediction:
 
-This turns a regression estimate into a statement about the economy. Take a standard capital share of $\alpha \approx 1/3$. The upper confidence limit then caps the share of output that could be coming from constrained firms:
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="figures/eq_agg_dark.svg">
+  <img src="figures/eq_agg_light.svg" width="215" alt="d ln Y_s / d ln Credit_s = alpha * theta_s">
+</picture>
+</p>
+
+Here θ<sub>s</sub> is **the share of a state's output that comes from credit-constrained firms**, and α is how much output responds to capital.
+
+This turns a regression estimate into a statement about the economy. Take a standard capital share of α ≈ 1/3. The upper confidence limit then caps the share of output that could be coming from constrained firms:
 
 | Sample | Upper limit on the effect | Implied ceiling on θ |
 |---|---:|---:|
@@ -199,13 +211,16 @@ All data are from the Reserve Bank of India's [Database on Indian Economy (DBIE)
 
 **Main specification:**
 
-```math
-\ln Y_{s,t} = \beta_1 \ln \text{Credit}_{s,t-1} + \gamma \ln y_{s,t-1} + \mu_s + \tau_t + \varepsilon_{s,t}
-```
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="figures/eq_main_dark.svg">
+  <img src="figures/eq_main_light.svg" width="570" alt="ln Y_st = beta_1 ln Credit_s,t-1 + gamma ln y_s,t-1 + mu_s + tau_t + epsilon_st">
+</picture>
+</p>
 
-- $\mu_s$ is a state fixed effect, $\tau_t$ a year fixed effect, and $y$ income per person.
+- μ<sub>s</sub> is a state fixed effect, τ<sub>t</sub> a year fixed effect, and *y* income per person.
 - Credit is lagged one year, because a machine bought this year produces next year.
-- H1 predicts $\beta_1 > 0$.
+- H1 predicts β<sub>1</sub> > 0.
 
 **H2** adds an interaction with each state's credit depth in its first year (credit / GSDP), centred at the average. States are also split into thirds by that depth.
 
