@@ -73,7 +73,9 @@ The data never changed, only *what was compared with what*. This is the single m
 
 The paper starts from a textbook model. Firms produce with $Y = AK^{\alpha}L^{1-\alpha}$, and a credit-constrained firm can buy only as much capital as its loan allows, so $K \le \lambda \cdot \text{Credit}$. Adding up all the firms in a state gives a clean prediction:
 
-$$\frac{\partial \ln Y_s}{\partial \ln \text{Credit}_s} = \alpha \cdot \theta_s$$
+```math
+\frac{\partial \ln Y_s}{\partial \ln \text{Credit}_s} = \alpha \cdot \theta_s
+```
 
 Here $\theta_s$ is **the share of a state's output that comes from credit-constrained firms**, and $\alpha$ is how much output responds to capital.
 
@@ -197,7 +199,9 @@ All data are from the Reserve Bank of India's [Database on Indian Economy (DBIE)
 
 **Main specification:**
 
-$$\ln Y_{s,t} = \beta_1 \ln \text{Credit}_{s,t-1} + \gamma \ln y_{s,t-1} + \mu_s + \tau_t + \varepsilon_{s,t}$$
+```math
+\ln Y_{s,t} = \beta_1 \ln \text{Credit}_{s,t-1} + \gamma \ln y_{s,t-1} + \mu_s + \tau_t + \varepsilon_{s,t}
+```
 
 - $\mu_s$ is a state fixed effect, $\tau_t$ a year fixed effect, and $y$ income per person.
 - Credit is lagged one year, because a machine bought this year produces next year.
